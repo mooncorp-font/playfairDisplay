@@ -37,6 +37,43 @@ http://scripts.sil.org/OFL
     src: url('PlayfairDisplay-Regular.ttf') format("truetype");
 }
 
+/***************** Italic *****************/
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+	src: url('PlayfairDisplay.woff2') format('woff2');
+    src: url('PlayfairDisplay-BoldItalic.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+	src: url('PlayfairDisplay.woff2') format('woff2');
+    src: url('PlayfairDisplay-RegularItalic.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+	src: url('PlayfairDisplay.woff2') format('woff2');
+    src: url('PlayfairDisplay-RegularItalic.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+	src: url('PlayfairDisplay.woff2') format('woff2');
+    src: url('PlayfairDisplay-RegularItalic.ttf') format("truetype");
+}
+
 /***************** 영문 *****************/
 @font-face {
 	font-family: 'PlayfairDisplay-EN';
